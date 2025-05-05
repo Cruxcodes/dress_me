@@ -1,0 +1,39 @@
+// Define variables for light theme
+$light-bg-color: #ffffff;
+$light-text-color: #000000;
+$light-primary-color: #007bff;
+
+// Define variables for dark theme
+$dark-bg-color: #121212;
+$dark-text-color: #ffffff;
+$dark-primary-color: #1e90ff;
+
+// Light theme styles
+.light-theme {
+    background-color: $light-bg-color;
+    color: $light-text-color;
+
+    a {
+        color: $light-primary-color;
+    }
+
+    button {
+        background-color: $light-primary-color;
+        color: $light-text-color;
+    }
+}
+
+// Dark theme styles
+.dark-theme {
+    background-color: $dark-bg-color;
+    color: $dark-text-color;
+
+    a {
+        color: $dark-primary-color;
+    }
+
+    button {
+        background-color: $dark-primary-color;
+        color: $dark-text-color;
+    }
+}

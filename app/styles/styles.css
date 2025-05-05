@@ -1,0 +1,23 @@
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+.light-theme a {
+  color: #007bff;
+}
+.light-theme button {
+  background-color: #007bff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+.dark-theme a {
+  color: #1e90ff;
+}
+.dark-theme button {
+  background-color: #1e90ff;
+  color: #ffffff;
+}/*# sourceMappingURL=styles.css.map */
